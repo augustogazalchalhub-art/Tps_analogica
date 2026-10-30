@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -210,6 +210,7 @@
         }
       ],
       "track_widths": [
+        0.0,
         0.0
       ],
       "tuning_pattern_settings": {
@@ -624,14 +625,44 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Descripción",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referencia"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -674,7 +705,7 @@
         "uuid": "610a7397-f790-40ce-8984-3eafd1c20c20"
       }
     ],
-    "used_designators": "#PWR1-12,Q1-5,C_c1-3,C_m1,C_e1,C_i1-2,C_o1,Carga1,V_in1,Ic_Q1-5,E_3,J_Vs1,R_Zo1,E_2.1,GND1-5,R_G1b1-2,R_B1-4,I_Rb1,Ib_Q1,Osc1,R_Bin1,R_C1,R_E1-2,M_REF1,R_Ein1,R_S1,Rx1,R_test1,Vc_Q3,RL1,Vd_M1-2,R_REF1-2,V_Re2,Vb_Q1-13,Vcc_12V1-3,C_G1,Ve_Q2,Ve_Q1/Vb_Q2,Ve_Q4/Vc_Q5,C1-6,RS1-4,R1-9,Vs_M2/Vd_Mo1,Id_M1-7,I_Rga1,C_HF1-2,C_s1-2,R_D1-3,Vs_M1/Vd_Mo1,R_G1a1-2,Cx1,R_G2a1,R_G2b1,R_L1,J_Vin1,D_Etapa1-2,I_Rgb1,Id_Mref1,Vs/Vg_Mref1,M_1-2,M_O1-2,Vg_M1-2,Vs_Mo1-2,J_Rl1,U1,RV1",
+    "used_designators": "#PWR1-12,Q1-5,C_c1-3,C_m1,C_e1,C_i1-2,C_o1,Carga1,V_in1,Ic_Q1-5,E_3,J_Vs1,R_Zo1,E_2.1,GND1-5,R_G1b1-2,R_B1-4,I_Rb1,Ib_Q1,Osc1,R_Bin1,R_C1,R_E1-2,M_REF1,R_Ein1,R_S1,Rx1,R_test1,Vc_Q3,RL1,Vd_M1-2,R_REF1-2,V_Re2,Vb_Q1-13,Vcc_12V1-3,C_G1,Ve_Q2,Ve_Q1/Vb_Q2,Ve_Q4/Vc_Q5,C1-6,RS1-4,R1-9,Vs_M2/Vd_Mo1,Id_M1-7,I_Rga1-2,C_HF1-2,C_s1-2,R_D1-3,Vs_M1/Vd_Mo1,R_G1a1-2,Cx1,R_G2a1,R_G2b1,R_L1,J_Vin1,D_Etapa1-2,I_Rgb1,Id_Mref1,Vs/Vg_Mref1,M_1-2,M_O1-2,Vg_M1-2,Vs_Mo1-2,J_Rl1,U1,RV1,J_RL1",
     "variants": []
   },
   "sheets": [
